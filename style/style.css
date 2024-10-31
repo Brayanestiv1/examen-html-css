@@ -1,0 +1,263 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    font-size: 7.2vw;   
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f6f6;
+    color: black; 
+      
+}
+
+header hr {
+    width: 2vw;
+    line-height: 3;
+}
+
+/* --------------SECCION1---------------------------- */
+.inicio {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+}
+
+.inicio img {
+    position: relative;
+    max-width: 100%;
+    height: 100vw;
+}
+
+.inicio h1 {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: vw;
+    z-index: 1;
+    color: #4e3105;
+}
+
+.white {
+    
+    position: absolute;
+    width: 90vw;
+    background-color: white;
+    height: 47vw;
+    top: 40vw;
+
+}
+
+.white h1 {
+    left: 7.5vw;
+}
+
+.white button { 
+    position: relative;
+    padding: 2vw;
+    top: 33vw;
+    left: 6vw;
+    margin: 1vw;
+    width: 37vw;
+
+    
+}
+
+.but1 {
+    color: #4e3105;
+}
+
+.but2 {
+    background-color: black;
+    color: white;
+}
+
+/* --------------SECCION2---------------------------- */
+
+
+.quienes-somos {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+
+
+
+.quienes-somos img {
+    width: 87vw;
+    height: auto;
+    margin: 5vw ;
+}
+
+
+/* --------------SECCION3---------------------------- */
+
+
+.anuncio {
+    display: flex;
+    flex-direction: column;
+}
+
+.anuncio div {
+    outline: 1px solid black;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    
+}
+
+.anuncio h1 {
+    text-align: center;
+}
+
+.anuncio h2 {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.anuncio h3 {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.anuncio img {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 50vw;
+}
+
+/* --------------SECCION4---------------------------- */
+
+.ventas {
+    display: flex;
+    flex-direction: column;
+}
+
+.ventas div {
+    outline: 1px solid black;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.ventas h1 {
+    text-align: center;
+}
+
+.ventas h2 {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.ventas h3 {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.ventas img {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 50vw;
+}
+
+/* --------------SECCION5---------------------------- */
+
+.clientes {
+    display: flex;
+    flex-direction: column;
+    margin:  5vw;
+}
+
+.clientes h1 {
+    font-size: 6vw;
+}
+
+.clientes div {
+    outline: 1px solid black;
+    width: 10vw;
+}
+
+.clientes h2 {
+    
+    margin-right: 20vw;
+}
+
+.clientes h3 {
+    
+    margin-right: 20vw;
+}
+
+
+/* --------------SECCION6---------------------------- */
+
+.contactos {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+      
+}
+
+.contactos button { 
+    flex-direction: row;
+    padding: 2vw;
+    top: 33vw;
+    left: 6vw;
+    margin:4vw;
+    width: 37vw;
+
+    
+}
+
+.contactos h1 {
+    margin-left: 9vw;
+    
+}
+
+.contactos h3 {
+    margin-left: 9vw;
+}
+
+.title {
+    text-align: center;
+}
+
+.but3 {
+    background-color: black;
+    color: white;
+}
+
+.but4 {
+    align-self: flex-end;
+}
+
+.contactos img {
+    width: 17vw;
+    margin-left: 9vw;
+
+}
+
+
+/* Estilos para pantallas de 600px o más */
+@media (min-width: 768px) {
+    
+    header hr {
+        display: none;
+    }
+
+    
+   
+}
+
+
+
